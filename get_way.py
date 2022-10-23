@@ -15,10 +15,10 @@ def relative_way_random(number):
     return f"dataset/random_dataset/{str(number).zfill(4)}.jpg"
 
 
-def get_absolute_way(name_class, number, function):
+def get_absolute_way(subdir, number, function):
     if function == "download":
-        return os.path.abspath(relative_way_dataset(name_class, number))
+        return os.path.abspath(relative_way_dataset(subdir, number))
     if function == "changed":
-        return os.path.abspath(relative_way_changed(name_class, number))
+        return os.path.abspath(relative_way_changed(subdir, number))
     if function == "random":
         return os.path.abspath(relative_way_random(number))
