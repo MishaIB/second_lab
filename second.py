@@ -1,15 +1,13 @@
 import os
-from Iterator import iterator
 import get_way
 import shutil
 
 #копирование в другую директорию
 def copy_to_another(class_name):
-    count = iterator()
-    while (count.num!=1020):
-        if (os.path.isfile(get_way.get_absolute_way(class_name, count.num, "download")) == True ):
-            shutil.copyfile(get_way.get_absolute_way(class_name, count.num, "download"), get_way.get_absolute_way(class_name, count.num, "changed"))
-        next(count)
+    for i in range(1020):
+        if (os.path.isfile(get_way.get_absolute_way(class_name, i, "download")) == True ):
+            shutil.copyfile(get_way.get_absolute_way(class_name, i, "download"), get_way.get_absolute_way(class_name, i, "changed"))
+
 
 
 def main():
