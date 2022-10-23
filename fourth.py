@@ -2,8 +2,9 @@ from Iterator import iterator
 
 
 def main():
-    print('Начало')
-    val = iterator('annotation.csv', 'cat')
+    print('Начало. Введите метку (cat/dog)')
+    mark=input()
+    val = iterator('annotation.csv', mark)
     for way in val:
         print(way)
     print('Конец')
