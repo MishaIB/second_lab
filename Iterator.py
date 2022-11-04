@@ -2,7 +2,11 @@ import csv
 
 
 class iterator:
+<<<<<<< HEAD
     def __init__(self, file_name, mark)->None:
+=======
+    def __init__(self, file_name, mark):
+>>>>>>> 9d865f6748297b743a2f4bdb78f255f70a0caac8
         self.limit = -1
         self.counter = -1
         self.file_name = file_name

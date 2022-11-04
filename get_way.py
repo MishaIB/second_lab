@@ -41,6 +41,7 @@ def relative_way_random(number)->str:
     return f"dataset/random_dataset/{str(number).zfill(4)}.jpg"
 
 
+<<<<<<< HEAD
 def get_absolute_way(subdir:str, number:int, function:str)->str:
     """функция возвращает абсолютный путь для картинки
 
@@ -52,6 +53,9 @@ def get_absolute_way(subdir:str, number:int, function:str)->str:
     Returns:
         str: _description_
     """
+=======
+def get_absolute_way(subdir, number, function):
+>>>>>>> 9d865f6748297b743a2f4bdb78f255f70a0caac8
     if function == "download":
         return os.path.abspath(relative_way_dataset(subdir, number))
     if function == "changed":

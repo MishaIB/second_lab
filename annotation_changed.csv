@@ -1,4 +1,5 @@
 Абсолютный путь;Относительный путь;Класс
+<<<<<<< HEAD
 C:\Users\misha\mishalabs\second_lab\dataset\cat\0001.jpg;dataset/changed_dataset/cat_0001.jpg;cat
 C:\Users\misha\mishalabs\second_lab\dataset\cat\0002.jpg;dataset/changed_dataset/cat_0002.jpg;cat
 C:\Users\misha\mishalabs\second_lab\dataset\cat\0003.jpg;dataset/changed_dataset/cat_0003.jpg;cat
@@ -4076,3 +4077,6 @@ C:\Users\misha\mishalabs\second_lab\dataset\dog\1016.jpg;dataset/changed_dataset
 C:\Users\misha\mishalabs\second_lab\dataset\dog\1017.jpg;dataset/changed_dataset/dog_1017.jpg;dog
 C:\Users\misha\mishalabs\second_lab\dataset\dog\1018.jpg;dataset/changed_dataset/dog_1018.jpg;dog
 C:\Users\misha\mishalabs\second_lab\dataset\dog\1019.jpg;dataset/changed_dataset/dog_1019.jpg;dog
+=======
+Абсолютный путь;Относительный путь;Класс
+>>>>>>> 9d865f6748297b743a2f4bdb78f255f70a0caac8
